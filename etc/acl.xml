@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2024 - Kevin casasbuenas (https://kincasasbuenas.dev/)
+ * @author      Kevin Casasbuenas <kincasasbuenas@outlook.com>
+ * @category    Kinuz
+ * @module      Kinuz/ManageAccountMenu
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::system">
+                    <resource id="Kinuz_Base::base" title="Kinuz" translate="title" sortOrder="300">
+                        <resource id="Kinuz_ManageAccountMenu::manage_account_menu" title="Manage Account Menu" translate="title" sortOrder="100" />
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

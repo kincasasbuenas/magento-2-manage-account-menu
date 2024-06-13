@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2024 - Kevin casasbuenas (https://kincasasbuenas.dev/)
+ * @author      Kevin Casasbuenas <kincasasbuenas@outlook.com>
+ * @category    Kinuz
+ * @module      Kinuz/ManageAccountMenu
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="layout_generate_blocks_after">
+        <observer name="kinuz_manage_account_menu_observer" instance="Kinuz\ManageAccountMenu\Observer\DisableBlock" />
+    </event>
+</config>

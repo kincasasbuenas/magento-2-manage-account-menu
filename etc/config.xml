@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright (c) 2024 - Kevin casasbuenas (https://kincasasbuenas.dev/)
+ * @author      Kevin Casasbuenas <kincasasbuenas@outlook.com>
+ * @category    Kinuz
+ * @module      Kinuz/ManageAccountMenu
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <manage_account_menu>
+            <general>
+                <enabled>0</enabled>
+                <active_delimiter_1>1</active_delimiter_1>
+                <active_delimiter_2>1</active_delimiter_2>
+                <active_account_link>1</active_account_link>
+                <active_address_link>1</active_address_link>
+                <active_account_edit_link>1</active_account_edit_link>
+                <active_downloadable_products_link>1</active_downloadable_products_link>
+                <active_newsletter_subscriptions_link>1</active_newsletter_subscriptions_link>
+                <active_billing_agreements_link>1</active_billing_agreements_link>
+                <active_product_reviews_link>1</active_product_reviews_link>
+                <active_orders_link>1</active_orders_link>
+                <active_my_credit_cards_link>1</active_my_credit_cards_link>
+                <active_wish_list_link>1</active_wish_list_link>
+            </general>
+        </manage_account_menu>
+    </default>
+</config>
