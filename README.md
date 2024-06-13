@@ -26,7 +26,7 @@ php bin/magento setup:di:compile
 
 If you don't want to install via composer, you can use this way. 
 
-- Download [the latest version here](https://github.com/kincasasbuenas/magento-2-base/archive/master.zip) 
+- Download [the latest version here](https://github.com/kincasasbuenas/magento-2-manage-account-menu/archive/master.zip) 
 - Extract `master.zip` file to `app/code/Kinuz/ManageAccountMenu` ; You should create a folder path `app/code/Kinuz/ManageAccountMenu` if not exist.
 - Go to Magento root folder and run upgrade command line to install `Kinuz_ManageAccountMenu`:
 
